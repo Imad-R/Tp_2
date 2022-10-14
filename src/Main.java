@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Tu veu koi shakal on fé tt içi");
+        System.out.println("Quelle fonction voulez vous choisir ?");
         String choix = scanner.nextLine();
 
         switch(choix){
@@ -52,8 +52,8 @@ public class Main {
                 int[] tableau_inverse = inverseTableau(myarr);
                 System.out.println(tableau_inverse);
                 break;
-            default:
-                System.out.println("On peut r faire pour oit va la bas");
+            //default:
+                //System.out.println("La fonction demandé est mal orthographié ou elle n'existe pas dans notre algorithme.");
 
         }
 
